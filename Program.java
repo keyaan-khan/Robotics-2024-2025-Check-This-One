@@ -1,15 +1,13 @@
 public class Program {
     public static void main(String[] args) {
-        
-        final String immutableVariable = "Immutable String";
+        int x = 5; 
+        int y = 10; 
 
-        int[] mutableVariable = {1, 2, 3};
+        x = x + 1;
+        y = y - 1; 
 
-        System.out.println("Immutable variable: " + immutableVariable);
+        int z = x + y; 
 
-        System.out.print("Mutable variable: ");
-
-        System.out.println(java.util.Arrays.toString(mutableVariable));
+        System.out.println("z: " + z);
     }
 }
-
