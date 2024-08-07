@@ -1,13 +1,18 @@
 public class Program {
     public static void main(String[] args) {
-        int x = 5; 
-        int y = 10; 
+        int x = 80; 
 
-        x = x + 1;
-        y = y - 1; 
+        
+        if (x < 100) {
+            x = x + 50;
+        }
 
-        int z = x + y; 
+        
+        if (x > 100) {
+            x = x / 20;
+        }
 
-        System.out.println("z: " + z);
+       
+        System.out.println("Final value of x: " + x);
     }
 }
