@@ -13,6 +13,6 @@ public class Program {
         }
 
        
-        System.out.println("Final value of x: " + x);
+        System.out.println("final value of x: " + x);
     }
 }
